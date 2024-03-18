@@ -1,0 +1,25 @@
+{
+  "name": "aurora-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx scripts/build.mts",
+    "dev": "tsx scripts/build.mts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "chokidar": "^3.6.0",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.20.2",
+    "esbuild-plugin-d.ts": "^1.2.3",
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "fastify": "^4.26.2"
+  }
+}
